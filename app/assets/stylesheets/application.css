@@ -5,6 +5,11 @@
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
 }
+h1, h3 {
+    background-color: #bdbdbd4d;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 p {
     font-family: 'Cormorant', serif bold;
     font-size: 20px
@@ -29,7 +34,7 @@ h1 {
 h3 {
     margin-left: 10px;
     margin-left: 100px;
-    margin-top: -300px; 
+    margin-top: -287px; 
     position: absolute;
     float: left;
     font-size: 100px;
@@ -38,6 +43,7 @@ a {
     cursor: pointer;
 }
 a:link, a:visited {
+    background-color: #bdbdbd4d;
     color: black;
     padding: 10px 10px;
     text-align: center;
