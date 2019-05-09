@@ -1,0 +1,25 @@
+.header
+    nav
+        = link_to 'EN', url_for( :locale => 'en' )
+        = link_to 'LV', url_for( :locale => 'lv' ) 
+.image
+        img src="/images/photo2.jpg" width="100%" height="510"
+h1 Tested 
+h3 Solutions
+body
+    .offer
+        h2 = t('company_offers')
+        .offer1
+            p = t('offer_line')
+    .kontakti
+        h2 = t('contact_us')
+        p = t('phone')
+        p = t('registration')
+        p = t('location')
+.mapouter
+        .gmap_canvas
+             iframe#gmap_canvas frameborder="0" height="500" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?q=56%C2%B0%2020'%2038.15917116%22%2C%2026%C2%B0%2010'%2048.77629104%22&t=k&z=13&ie=UTF8&iwloc=&output=embed" width="100%" 
+footer
+  | &copy; 2019 Henri Hirv
+link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet" /
+link href="https://fonts.googleapis.com/css?family=Cormorant" rel="stylesheet" /
