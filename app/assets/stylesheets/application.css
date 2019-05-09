@@ -3,7 +3,7 @@
     cursor: default;
 }
 h1, h2, h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 h1, h3 {
     background-color: #bdbdbd4d;
@@ -11,13 +11,15 @@ h1, h3 {
     padding-right: 15px;
 }
 p {
-    font-family: 'Cormorant', serif bold;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 20px
 }
 .header {
     position: absolute;
     margin-left: 90%;
     margin-top: 15px;
+    font-family: 'Ubuntu', sans-serif;
+
 }
 nav {
     margin-right: 20px;
